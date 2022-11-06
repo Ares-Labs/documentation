@@ -6,7 +6,7 @@ stages:
 deploy-api:
   stage: deploy
   only:
-    - main
+    - master
   except:
     changes:
       - documents/**/*
