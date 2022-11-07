@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
-  title: 'Mars Concept Title - Mars-06'
-  description: 'Description of the Mars API - Mars-06'
+  title: 'Ares Labs'
+  description: 'We provide a smart security package that will help you keep your properties and businesses safe.'
   version: 0.0.1
 servers:
   - url: https://project-ii.ti.howest.be/mars-06
