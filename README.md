@@ -1,6 +1,11 @@
+image.png
 # Documentation repo of group-06
    This document will explain how to deploy our proof of concept on your device. 
 ## Prerequisites
+1. Make sure you'be got `npm` installed
+2. //
+
+
 
 ## Important public urls  
 > * [Business Case Link](https://docs.google.com/document/d/1ObQ3rBI7G-NltQehbjTW6Hwc3osGvSEEYOYz42bJ8wg/edit?usp=sharing)
