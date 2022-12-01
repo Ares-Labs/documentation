@@ -7,5 +7,5 @@
 
 
 https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=code_smells
-https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=bugs
+![example](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=bugs)
 
