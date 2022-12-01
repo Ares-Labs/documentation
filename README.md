@@ -1,3 +1,4 @@
+![bugs](./AreasLogo.png)
 # Documentation repo of group-06
    This document will explain how to deploy our proof of concept on your device. 
 ## Prerequisites
