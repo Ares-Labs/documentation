@@ -16,9 +16,9 @@
     - SSH:git@git.ti.howest.be:TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client.git
     - HTTPS: https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client.git
 
-3. Run the server
-
-4. In you client terminal use the command `npm run dev`
+## User guide
+1. Run the server via your favourite IDE or via the CLI.
+2. Run `npm run dev` command in your client terminal.
 
 ## Important public urls  
 > * [Business Case Link](https://docs.google.com/document/d/1ObQ3rBI7G-NltQehbjTW6Hwc3osGvSEEYOYz42bJ8wg/edit?usp=sharing)
