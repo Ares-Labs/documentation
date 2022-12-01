@@ -1,11 +1,23 @@
-image.png
 # Documentation repo of group-06
    This document will explain how to deploy our proof of concept on your device. 
 ## Prerequisites
-1. Make sure you'be got `npm` installed
-2. //
+1. Make sure you've got `node` installed
+2. Make sure you've got `npm` installed
+3. Make sure you've got `java` installed
 
+## Instalation
 
+1. Clone the server:
+    - SSH: git@git.ti.howest.be:TI/2022-2023/s3/analysis-and-development-project/projects/group-06/server.git
+    - HTTPS: https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/server.git
+
+2. Clone the client:
+    - SSH:git@git.ti.howest.be:TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client.git
+    - HTTPS: https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client.git
+
+3. Run the server
+
+4. In you client terminal use the command `npm run dev`
 
 ## Important public urls  
 > * [Business Case Link](https://docs.google.com/document/d/1ObQ3rBI7G-NltQehbjTW6Hwc3osGvSEEYOYz42bJ8wg/edit?usp=sharing)
@@ -13,7 +25,10 @@ image.png
 > * [Wireframes Basic User](https://app.moqups.com/jAVXvEnBpjb1M8tUcq6Toozh1w6VihV0/view/page/ad64222d5)
 > * [Wireframes Adminstrator](https://app.moqups.com/9jsg9C5akCLrhODJ8aVPPvIY8un9fuPO/view/page/ad64222d5?ui=0&fit_width=1)
 
-## Client
+## Badges
+
+### Client
+
 ![alert_status](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=bugs)
 ![code_smells](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=code_smells)
@@ -26,7 +41,8 @@ image.png
 ![sqale_rating](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=sqale_rating)
 ![vulnerabilities](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=vulnerabilities)
 
-## Server
+### Server
+
 ![alert_status](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=bugs)
 ![code_smells](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=code_smells)
