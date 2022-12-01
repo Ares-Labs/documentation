@@ -22,7 +22,6 @@
 ![vulnerabilities](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-client-06&metric=vulnerabilities)
 
 ## Server
-
 ![alert_status](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=bugs)
 ![code_smells](https://sonar.ti.howest.be/api/project_badges/measure?project=2022.project-ii:mars-server-06&metric=code_smells)
