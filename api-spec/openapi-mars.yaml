@@ -1,6 +1,4 @@
 openapi: 3.0.0
-x-stoplight:
-  id: 00g51fcec876a
 info:
   title: Ares Labs
   version: 0.0.1
@@ -18,7 +16,7 @@ servers:
 paths:
   /properties:
     get:
-      summary: Your GET endpoint
+      summary: Fetch all properties that we have registered
       tags:
         - properties
       responses:
@@ -36,11 +34,11 @@ paths:
                     type: array
                     items:
                       $ref: '#/components/schemas/Property'
-      operationId: get-all-properties
-      description: Fetch all properties that we have registered
-  '/properties/{id}':
+      operationId: all-properties
+      description: Operations related to all properties
+  '/property/{id}':
     get:
-      summary: Your GET endpoint
+      summary: Fetch details about a property
       tags:
         - property
         - specific
@@ -57,8 +55,8 @@ paths:
                 properties:
                   property:
                     $ref: '#/components/schemas/PropertyDetailed'
-      operationId: get-property-by-id
-      description: Fetch details about a property
+      operationId: property-by-id
+      description: Operations related to a specific property
     parameters:
       - schema:
           type: string
@@ -140,7 +138,7 @@ components:
           description: This is a beautiful property located in a prime location.
           tier: gold
           tier_name: Gold Tier
-          owner: abc123
+          owner: 59abd37d-3a17-4a44-a1ce-8cd8b8b6ce05
           owner_full_name: John Smith
       description: A detailed object of the property
 x-internal: false
