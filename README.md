@@ -24,7 +24,26 @@ Our project explained in a schematic form
 > * [Wireframes Adminstrator](https://app.moqups.com/9jsg9C5akCLrhODJ8aVPPvIY8un9fuPO/view/page/ad64222d5?ui=0&fit_width=1)
 
 #### Video flows
-TODO: ADD VIDEOS HERE
+##### Add property and user to the proprty
+<video src="./User%20flow%20screenrecordings/add_user_and_property.mkv" controls="controls" style="max-width: 730px;">
+</video>
+
+##### Delete user and property
+<video src="./User%20flow%20screenrecordings/delete_user_and_property.mkv" controls="controls" style="max-width: 730px;">
+</video>
+
+##### Buy subscription
+<video src="./User%20flow%20screenrecordings/buy_subscription.mkv" controls="controls" style="max-width: 730px;">
+</video>
+
+##### View live camera view
+<video src="./User%20flow%20screenrecordings/viewing_live_cameras.mkv" controls="controls" style="max-width: 730px;">
+</video>
+
+
+
+
+
 
 ### D5: Proof of Concept (POC)
 >* [Client README](ADD LINK HERE)
