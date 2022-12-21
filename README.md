@@ -24,7 +24,7 @@ Our project explained in a schematic form
 > * [Wireframes Adminstrator](https://app.moqups.com/9jsg9C5akCLrhODJ8aVPPvIY8un9fuPO/view/page/ad64222d5?ui=0&fit_width=1)
 
 #### Video flows
-##### Add property and user to the proprty
+##### Add property and user to the property
 <video src="./User%20flow%20screenrecordings/add_user_and_property.mkv" controls="controls" style="max-width: 730px;">
 </video>
 
