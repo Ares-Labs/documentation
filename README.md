@@ -27,7 +27,7 @@ Our project explained in a schematic form
 > * [Flowcharts](https://lucid.app/lucidchart/a944ed3e-953d-47b2-9475-5d7bc607d37a/edit?viewport_loc=59%2C-642%2C2534%2C1156%2C0_0&invitationId=inv_fd31d9c3-8e78-4bd5-b994-9a9a4866868e)
 > * [C4 Diagram](https://lucid.app/lucidchart/f02ad697-dfa5-4c73-a50e-3fec091c6f3a/edit?viewport_loc=-301%2C-256%2C2516%2C1148%2C0_0&invitationId=inv_f0108222-dc29-48bf-9160-9261738712ba)
 > * [UCD](https://lucid.app/lucidchart/3fa5e56c-3769-4f19-bb95-b411c15bd9a0/edit?viewport_loc=-618%2C627%2C2957%2C1349%2C0_0&invitationId=inv_1e642771-1511-4dbc-9c67-aa65a08b8316)
-> * [ERD](NOT IMPLEMENTED YET)
+> * [ERD](./ERD/erd.png)
 
 ### D4: Wireframes
 
