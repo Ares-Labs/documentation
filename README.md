@@ -11,14 +11,14 @@ In the deliverables section you can find everything we have been working on this
 
 ### D1: Business case including financial analysis
 
-A detailed explination of the whole project.
+A detailed explanation of the whole project.
 > * [Business Case Link](https://docs.google.com/document/d/1ObQ3rBI7G-NltQehbjTW6Hwc3osGvSEEYOYz42bJ8wg/edit?usp=sharing)
 > * [Business Model Canvas](https://miro.com/app/board/uXjVPUVqlls=/?share_link_id=908908917304)
 
 ### D2: Marketing website
 
 On our marketing website customers can find information about our products and services. We also have a couple of job
-offers for hiring technicians. Finaly we also provide you with information about our project team.
+offers for hiring technicians. Finally we also provide you with information about our project team.
 > * [Main Page Link](https://ares.koenk.be/)
 
 ### D3: Schematics
@@ -38,25 +38,33 @@ Our project explained in a schematic form
 > * [Wireframes Adminstrator](https://app.moqups.com/9jsg9C5akCLrhODJ8aVPPvIY8un9fuPO/view/page/ad64222d5?ui=0&fit_width=1)
 
 #### Video flows
-<<<<<<< HEAD
+
 ##### Add property and user to the property
 <video src="user-flow-screen-recordings/add_user_and_property.mkv" controls="controls" style="max-width: 730px;">
 </video>
+
+>* [youtube link](https://www.youtube.com/watch?v=FYETPxGUrYQ)
 
 ##### Delete user and property
 
 <video src="user-flow-screen-recordings/delete_user_and_property.mkv" controls="controls" style="max-width: 730px;">
 </video>
 
+>* [youtube link](https://www.youtube.com/watch?v=kQJLOkyWIPU&t=1s)
+
 ##### Buy subscription
 
 <video src="user-flow-screen-recordings/buy_subscription.mkv" controls="controls" style="max-width: 730px;">
 </video>
 
+>* [youtube link](https://www.youtube.com/watch?v=eJd2CiY_UU0)
+
 ##### View live camera view
 
 <video src="user-flow-screen-recordings/viewing_live_cameras.mkv" controls="controls" style="max-width: 730px;">
 </video>
+
+>* [youtube link](https://www.youtube.com/watch?v=wXRp2MUm540)
 
 ### D5: Proof of Concept (POC)
 
