@@ -11,6 +11,7 @@ info:
 x-internal: false
 tags:
   - name: image
+  - name: threat
 servers:
   - url: 'http://localhost:8080'
     description: Local
@@ -21,6 +22,7 @@ paths:
     post:
       tags:
         - image
+        - threat
       summary: Scan an image
       description: 'Our advanced AI system can scan an image and attempt to identify any known faces within it using our database. Based on the results of this analysis, a threat level will be determined on a scale from 0 to 1.'
       operationId: scanImage
@@ -36,8 +38,8 @@ paths:
                     type: number
                     minimum: 0
                     maximum: 1
-                    exclusiveMinimum: true
-                    exclusiveMaximum: true
+                    exclusiveMinimum: false
+                    exclusiveMaximum: false
                     example: 0.42
               examples:
                 Example:
@@ -50,3 +52,30 @@ paths:
               type: string
               format: binary
         description: Provide raw image
+    parameters: []
+  /api/threatLevel:
+    get:
+      summary: Get current threat level
+      tags:
+        - threat
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  threat_level:
+                    type: number
+                    minimum: 0
+                    maximum: 1
+                    exclusiveMinimum: false
+                    example: 0.42
+              examples:
+                Example 1:
+                  value:
+                    threat_level: 0.42
+      operationId: getThreatLevel
+      description: 'Our AI system calculates the current threat level by analyzing multiple data sources and determining the probability that a crime will occur. This value is represented on a scale from 0 to 1, with 0 indicating a low likelihood of a crime occurring and 1 indicating a high likelihood.'
+    parameters: []
