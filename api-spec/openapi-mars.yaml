@@ -4,21 +4,26 @@ info:
   version: 0.0.1
   contact:
     name: Ares Labs
-    url: ares@koenk.be
+    url: ares.koenk.be
     email: contact@ares.koenk.be
   termsOfService: 'https://ares.koenk.be/tos'
   description: We provide a smart security package that will help you keep your properties and businesses safe.
+x-internal: false
+tags:
+  - name: image
 servers:
   - url: 'http://localhost:8080'
     description: Local
   - url: 'https://project-ii.ti.howest.be/mars-06'
     description: Production
 paths:
-  /properties:
-    get:
-      summary: Fetch all properties that we have registered
+  /api/scan:
+    post:
       tags:
-        - properties
+        - image
+      summary: Scan an image
+      description: 'Our advanced AI system can scan an image and attempt to identify any known faces within it using our database. Based on the results of this analysis, a threat level will be determined on a scale from 0 to 1.'
+      operationId: scanImage
       responses:
         '200':
           description: OK
@@ -26,122 +31,22 @@ paths:
             application/json:
               schema:
                 type: object
-                x-examples:
-                  Example 1:
-                    properties: []
                 properties:
-                  properties:
-                    type: array
-                    items:
-                      $ref: '#/components/schemas/Property'
-      operationId: all-properties
-      description: Get all properties
-  '/property/{id}':
-    get:
-      summary: Fetch details about a property
-      tags:
-        - property
-      responses:
-        '200':
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: object
-                x-examples:
-                  Example 1:
-                    properties: []
-                properties:
-                  property:
-                    $ref: '#/components/schemas/PropertyDetailed'
-      operationId: property-by-id
-      description: Retrieve a property by its ID
-    parameters:
-      - schema:
-          type: string
-        name: id
-        in: path
-        required: true
-        description: The id of a property
-components:
-  schemas:
-    Property:
-      type: object
-      properties:
-        id:
-          type: integer
-        location:
-          type: string
-        x:
-          type: integer
-        'y':
-          type: integer
-        width:
-          type: integer
-        height:
-          type: integer
-        status:
-          type: string
-        tier:
-          type: integer
-        description:
-          type: string
-      x-examples:
-        Example 1:
-          id: 1
-          location: 123 Main Street
-          x: 0
-          'y': 0
-          width: 100
-          height: 100
-          status: available
-          tier: 2
-          description: This is a beautiful property located in a prime location.
-      description: A property represented
-    PropertyDetailed:
-      type: object
-      properties:
-        id:
-          type: integer
-        location:
-          type: string
-        x:
-          type: integer
-        'y':
-          type: integer
-        width:
-          type: integer
-        height:
-          type: integer
-        status:
-          type: string
-        description:
-          type: string
-        tier:
-          type: string
-        tier_name:
-          type: string
-        owner:
-          type: string
-        owner_full_name:
-          type: string
-      x-examples:
-        Example 1:
-          id: 1
-          location: 123 Main Street
-          x: 0
-          'y': 0
-          width: 100
-          height: 100
-          status: available
-          description: This is a beautiful property located in a prime location.
-          tier: gold
-          tier_name: Gold Tier
-          owner: 59abd37d-3a17-4a44-a1ce-8cd8b8b6ce05
-          owner_full_name: John Smith
-      description: A detailed object of the property
-x-internal: false
-tags:
-  - name: properties
-  - name: property
-  - name: specific
+                  threat_level:
+                    type: number
+                    minimum: 0
+                    maximum: 1
+                    exclusiveMinimum: true
+                    exclusiveMaximum: true
+                    example: 0.42
+              examples:
+                Example:
+                  value:
+                    threat_level: 0.42
+      requestBody:
+        content:
+          image/*:
+            schema:
+              type: string
+              format: binary
+        description: Provide raw image
