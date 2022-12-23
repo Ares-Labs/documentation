@@ -71,6 +71,7 @@ Our project explained in a schematic form
 
 ### D5: Proof of Concept (POC)
 
+>* [POC Links](https://project-ii.ti.howest.be/mars-06/)
 > * [Client README](https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client/-/blob/main/README.md)
 >* [Server README](https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/server/-/blob/main/readme.md)
 
