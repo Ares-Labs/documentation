@@ -6,8 +6,11 @@ We from Ares Labs want to make sure that your property is safe at all times. Wit
 your properties and make sure they are okey.
 
 ## Deliverables
-
 In the deliverables section you can find everything we have been working on this past semester.
+
+### Wiki links
+>* [Wiki home](https://git.ti.howest.be/groups/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/-/wikis/home)
+>* [wiki client](https://git.ti.howest.be/groups/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/-/wikis/client)
 
 ### D1: Business case including financial analysis
 
