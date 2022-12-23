@@ -84,6 +84,8 @@ We use a private API for the most part that is why our public api is so small.
 
 ### Client
 
+[Client Sonar](https://sonar.ti.howest.be/dashboard?id=2022.project-ii%3Amars-client-06)
+
 ![alert_status](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=bugs)
 ![code_smells](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=code_smells)
@@ -97,6 +99,8 @@ We use a private API for the most part that is why our public api is so small.
 ![vulnerabilities](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=vulnerabilities)
 
 ### Server
+
+[Server Sonar](https://sonar.ti.howest.be/dashboard?id=2022.project-ii%3Amars-server-06)
 
 ![alert_status](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-server-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-server-06&metric=bugs)
