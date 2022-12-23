@@ -6,8 +6,11 @@ We from Ares Labs want to make sure that your property is safe at all times. Wit
 your properties and make sure they are okey.
 
 ## Deliverables
-
 In the deliverables section you can find everything we have been working on this past semester.
+
+### Wiki links
+>* [Wiki home](https://git.ti.howest.be/groups/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/-/wikis/home)
+>* [wiki client](https://git.ti.howest.be/groups/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/-/wikis/client)
 
 ### D1: Business case including financial analysis
 
@@ -68,6 +71,7 @@ Our project explained in a schematic form
 
 ### D5: Proof of Concept (POC)
 
+>* [POC Links](https://project-ii.ti.howest.be/mars-06/)
 > * [Client README](https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/client/-/blob/main/README.md)
 >* [Server README](https://git.ti.howest.be/TI/2022-2023/s3/analysis-and-development-project/projects/group-06/server/-/blob/main/readme.md)
 
@@ -79,6 +83,8 @@ We use a private API for the most part that is why our public api is so small.
 ## Badges
 
 ### Client
+
+[Client Sonar](https://sonar.ti.howest.be/dashboard?id=2022.project-ii%3Amars-client-06)
 
 ![alert_status](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=bugs)
@@ -93,6 +99,8 @@ We use a private API for the most part that is why our public api is so small.
 ![vulnerabilities](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-client-06&metric=vulnerabilities)
 
 ### Server
+
+[Server Sonar](https://sonar.ti.howest.be/dashboard?id=2022.project-ii%3Amars-server-06)
 
 ![alert_status](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-server-06&metric=alert_status)
 ![bugs](https://sonar.ti.howest.be/badges/project_badges/measure?project=2022.project-ii%3Amars-server-06&metric=bugs)
